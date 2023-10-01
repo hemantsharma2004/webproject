@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    position:relative;
+    left:30%;
+    width:50vw;
+    border: 3px solid black;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows:150px;
+    animation-name: scale;
+    animation-duration: 3s;
+}
+.box{
+    border: 2px solid red;
+    margin:2px;
+    background-size: cover;
+    background-position: top;
+}
+
+.row-2{
+    grid-row:span 2;
+}
+.col-2{
+    grid-column:span 2;
+}
+
+ @keyframes scale {
+    0%{
+        transform:translate(-500px)
+    }
+    100%{
+        transform: translate(200px);
+    }
+    
+ }

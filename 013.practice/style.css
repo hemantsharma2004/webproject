@@ -1,0 +1,404 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accebt-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color:var(--primary-text-color)
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size:1.5rem
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:var(--secondary-text-color);
+    font-size:1.5rem;
+}
+
+ul{
+    list-style: none;
+}
+.hover-link{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+.hover-link:hover{
+    color: var(--accebt-color);
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    overflow:hidden;
+    padding-inline: var(--padding-inline-section);
+}
+
+.primary{
+    border: 3px solid black;
+    border-radius: 15px;
+    color:white !important;
+    padding:var(--padding-inline-section);
+    background-color: var(--accebt-color);
+    box-shadow: 4px 4px 9px gray;
+    font-size: 20px;
+    transition:0.3s ease-out;
+    border: none;
+}
+.primary:hover{
+    
+    background-color: var(--accent-color-dark);
+
+}
+
+.secondary{
+    border: 2px solid black;
+   background-color: white;
+   padding:var(--padding-inline-section);
+    border-radius: 15px;
+    transition:0.3s ease-out;
+    font-size: 1.5rem;
+}
+
+.secondary:hover{
+    background-color: var(--accebt-color);
+    color:white !important;
+    transition: 0.4s ease-out;
+}
+.flex{
+    display:flex;
+    align-items: center;
+}
+
+.top-banner{
+    background-color: var(--accebt-color);
+    height:10vh;
+    background-image: url(https://images.unsplash.com/photo-1649751683977-df6f669b64e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxpZ2h0JTIwYmxhY2slMjBkb3RzJTIwd2l0aCUyMGJhY2tncm91bmQlMjBpbiUyMGJsdWUlMjBjb2xvciUyMGluJTIwYW4lMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: repeat;
+
+}
+.top-banner p{
+    color:white;
+    text-align: center;
+    padding: 10px 0 0 0px;
+}
+
+ 
+.company-logo{
+    width:5vw;
+}
+.hello{
+    justify-content: space-evenly;
+    margin:20px;
+}
+
+.nav-link{
+    flex-basis: 780px;   
+}
+
+.nav-toogle{
+    display:none;
+}
+.nav-link ul{
+
+     justify-content: end;
+     gap:20px;
+     margin-right:2px;
+}
+
+.hi{
+    margin:30px;
+    gap:30%;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.container{
+    gap:40px;
+}
+
+.header-left{
+    flex-basis: 40%;
+}
+.header-left h1{
+    margin-bottom: 15px;
+}
+.width{
+    width:25vw;
+}
+
+.getstarted{
+    margin-block: 40px;
+}
+
+.companies-heading{
+    margin-block: 35px;
+      text-align: center;
+      color:var(--primary-text-color)
+}
+
+
+
+.logo{
+     width:10vw;
+}
+
+.logos{
+    justify-content: space-evenly;
+     gap:40px;
+     flex-wrap: wrap;
+     margin: 30px;
+}
+
+.feature-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sury{
+    position:relative;
+    top:35px;
+}
+
+
+.feature-section{
+    background-color: #eee;
+    padding:100px var(--padding-inline-section)0;
+}
+.feature-area{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-card{
+    flex-direction: column;
+    gap:30px;
+    max-width:30%;
+    margin-block: 50px;
+    
+}
+
+.hei{
+    justify-content: space-around;
+    flex-direction: column;
+    gap:50%;
+}
+.feature area{
+flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap:20px;
+}
+
+.gg{
+    margin: 20px;
+}
+ 
+.margin{
+    height:9vh;
+    width:8vw;
+}
+
+
+
+.big-feature-section{
+    margin: 20px;
+}
+
+.ra{
+    width:40vw;
+
+}
+
+.left-text{
+    flex-basis: 40%;
+}
+.left-text p{
+    margin:10px;
+}
+.left-text h3{
+    margin: 10px;
+}
+
+.aftab{
+    margin-top: 80px;
+    gap:20%;
+}
+
+
+
+
+.example-header{
+    margin-top:30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.example-header h1{
+    margin-bottom: 30px;
+}
+.rahul{
+    margin-block: 30px;
+}
+.example-area{
+    flex-wrap: wrap;
+}
+
+.example-card{
+    margin-block: 40px;
+    width:20%;
+    height:50vh;
+    border: 2px solid black;
+    background-image: url(https://images.unsplash.com/photo-1549880181-56a44cf4a9a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdW50YWlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    color:white;
+    display:flex;
+    align-items: end;
+    margin-inline: 20px;
+}
+
+.example-card:hover{
+    box-shadow: 10px 10px 20px black;
+    transition: 0.5s ease-in-out;
+
+}
+
+.example-card h3{
+    line-height: 2.4rem;
+}
+ 
+ .cta-section{
+    background-color: #183b56;
+    color:white !important;
+    margin: 50px 0;
+    padding: 100px  var(--padding-inline-section) 100px;
+ }
+ .rachit {
+    text-align: center;
+    
+ }
+ .rachit h2{
+    margin-block: 30px;
+ }
+
+ .rachit p{
+    margin-block: 40px;
+ }
+
+ .hul{
+    margin-top: 20px;
+ }
+
+ .nikhil{
+    width:180px;
+ }
+
+  
+ .columns{
+    flex-direction: column;
+    gap:20px;
+ }
+
+ .dhoni{
+    justify-content: space-around;
+    background-color: #eee;
+    padding: 70px 20px;
+ }
+
+ .aryan{
+    margin-top: 50px;
+    background-color: var(--secondary-text-color);
+    color:white;
+    height:20vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ #id{
+    color:white !important;
+    margin-bottom: 80px;
+ }
+
+ #ss{
+    color:white !important;
+ }
+
+  @media screen  and (width <=991px){
+    .nav-toogle{
+        display:block;
+        
+    }
+    .nav-link{
+        display:none;
+    }
+    .example-card{
+        width:43%;
+        height:150px;
+        gap:10px;
+        font-size: 1rem;
+    }
+    .cta-section{
+        padding:60px;
+    }
+    
+  }
+
+  @media screen and (width <=768px) {
+
+    .hi{
+        flex-direction: column;
+    }
+    .header-text{
+        width:100%;
+    }
+    .getstarted{
+        width:100vw;
+    }
+    .width{
+        width:100%;
+    }
+
+    .aftab{
+        flex-direction: column;
+    }
+    .left-text{
+        width:100%;
+    }
+    .ra{
+        width:100%;
+    }
+    .example-card{
+        width:100%;
+        margin:5px;
+    }
+    .dhoni{
+        flex-direction: column;
+    }
+    .feature-card{
+        min-width:40%;
+        margin-inline: 15px;
+    }
+    .aryan{
+        flex-wrap: wrap;
+    }
+
+
+  }

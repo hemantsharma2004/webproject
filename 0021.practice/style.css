@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(sidenav-img/images/background.png);
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    height:100vh;
+
+}
+
+.side-bar{
+    width:110px;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blue(5px);
+    position:fixed;
+    overflow:hidden;
+}
+
+.user{
+    display:flex;
+    padding:40px;
+}
+.user img{
+    width:50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+ .user div{
+    display:none;
+ }
+
+#star{
+    width: 20px;
+    height: 30px;
+    display:none;
+}
+ul li p{
+    white-space: nowrap;
+    display:none;
+  }
+
+ul li{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    white-space: nowrap;
+}
+
+ #layout{
+    margin-top: 35px;
+ }
+ .side-bar ul li p{
+    display:none;
+ }
+ .side-bar img{
+    width:40px;
+    margin-bottom: 20px;
+ }
+
+ .side-bar:hover{
+    width:240px;
+ }
+ .side-bar :hover .user {
+    display:block;
+ }
+ .side-bar:hover #star{
+    display:block;
+ }
+  ul li p:hover{
+    display:block;
+ }

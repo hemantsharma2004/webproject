@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.outer-box{
+    width:100vw;
+    height:100vh;
+    background-image: url(https://media.istockphoto.com/id/1066080904/photo/black-marble-texture-and-background.jpg?b=1&s=170667a&w=0&k=20&c=lDwnNvJ9bZeNHK0XKQZ3Vv8PASHVhLeThfrywePTJyM=);
+    background-size: cover;
+    background-position: top;
+}
+
+.inner-box label{
+    display:block;
+}
+
+.inner-box{
+    width:400px;
+    height:400px;
+    background-color: rgb(63, 65, 64);
+    margin:auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    transform: translateY(20%);
+    padding-right: 20px;
+    box-shadow: 8px 8px 11px red;
+    transition:0.4s ease;
+}
+.inner-box:hover{
+    transform: scale(1);
+    box-shadow: 7px 8px 12px blue;
+}
+.header h1{
+    font-size: 4.4rem;
+    text-transform: capitalize;
+    font-weight: 500px;
+    background-image: url();
+margin-bottom: 15px;
+}
+
+.main label{
+    font-size: 1.3rem;
+    margin-bottom: 7px;
+}
+
+.main input{
+    width:100%;
+    font-size: 0.8rem;
+    padding:5px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    box-shadow: 7px 7px 10px gray;
+}
+
+.submit{
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+}
+.submit:hover{
+    background-color: blue;
+    color:white;
+}
+
+.footer a{
+ 
+    color:white;
+}
+
+.footer{
+    text-align: center;
+}

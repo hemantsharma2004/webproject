@@ -1,0 +1,113 @@
+.nikhil{
+    margin-right: 15px;
+}
+
+.hello h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.hello p{
+      font-weight: bold;
+      font-style: italic;
+}
+
+.sign{
+    text-transform: capitalize;
+}
+
+.rac{
+    font-size: 3rem;
+    background: linear-gradient(to right, blue,red);
+}
+
+.hit{
+    font-size:3rem;
+    background: linear-gradient(to left,yellow,green);
+}
+
+.rohit{
+   font-size:3rem;
+   background: linear-gradient(to top,#555,purple);
+}
+.dhoni{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.yuvraj{
+    border: 5px solid black;
+    width:20%;
+    text-align: center;
+    position:relative;
+    left:40%;
+    right:35%;
+    text-transform: capitalize;
+    font-size: 2rem;
+
+}
+
+.kohli{
+    border:5px solid black;
+    width:20%;
+    text-align: center;
+    position:relative;
+    left:40%;
+    right:35%;
+}
+
+.sign p{
+    text-transform: capitalize;
+    border: 5px solid black;
+    width:20%;
+    position:relative;
+    left:40%;
+    right:35%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.bens{
+    text-transform: capitalize;
+    font-size: 1.8rem;
+
+}
+.stokes{
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+
+body{
+    background: linear-gradient(to top left, #faebd7, #555);
+}
+
+.sign:hover{
+    color:red;
+}
+.sig:hover{
+    color:red;
+}
+
+
+.yuvraj:hover{
+    color:red;
+}
+
+.kohli:hover{
+    color:red;
+}
+.rac:hover{
+    color:white;
+    font-size:2.5rem;
+}
+.hit:hover{
+    color: red;
+    font-size: 2.5rem;
+}
+.rohit:hover{
+    color:rgb(2, 37, 37);
+    font-size: 2.5rem;
+}
+
+
+

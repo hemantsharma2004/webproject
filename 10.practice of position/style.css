@@ -1,0 +1,47 @@
+.container{
+    background-color: darkorchid;
+    width:520px;
+    height:500px;
+}
+
+.box{
+    width:100px;
+    height:100px;
+}
+
+.green{
+    background-color: aqua;
+    float:right;;
+   
+
+}
+.red{
+    background-color: black;
+   float:right;
+   color:white;
+   clear:right;
+}
+.blue{
+    background-color: brown;
+   float:right;
+   clear:right;
+  
+}
+
+.purple{
+    background-color: darkgreen;
+  float:right;
+  clear:right;
+}
+.scaper{
+    height:100vh;
+    width:200vw;
+}
+.hello{
+    text-transform: capitalize;
+    text-shadow: 2px 2px red;
+}
+.container1{
+    border: 4px solid black;
+
+}

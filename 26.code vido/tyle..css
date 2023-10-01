@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+ .hello{
+      width:100vw;
+      height:100vh;
+      background-image: url(https://images.unsplash.com/photo-1512751165040-ec247781e62d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmxhY2slMjBjb2xvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+      background-size: cover;
+      background-repeat: no-repeat;
+
+ }
+ .left{
+     color:white;
+     font-size: 1.5rem;
+   text-shadow: 7px 7px 10px whitesmoke;
+ }
+ .flex{
+     display:flex;
+     align-items: center;
+ }
+.right ul li a{
+     color:white;
+     font-size: 1.2rem;
+      text-decoration: none;
+}
+ .right ul li a:hover{
+       border: 3px solid red;
+       padding:12px;
+}
+  .nav{
+     display:flex;
+     align-items: center;
+     justify-content: space-around;
+     padding:50px 10px;
+  }
+
+  .nav ul li{
+     list-style: none;
+  }
+   .right{
+     width:500px;
+   }
+    .right ul li{
+         margin-right: 50px;
+          text-decoration: none;
+    }
+
+    .portfolio{
+        padding:10px 50px;
+        justify-content: space-around;
+    }
+
+     .left-text{
+         flex-basis: 30%;
+     }
+
+      .right-image{
+         flex-basis: 40%;
+         display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-auto-rows: 100px;
+    
+      }
+      .right-image:hover{
+         box-shadow: 6px 8px 12px blue;
+      }
+
+       .box{
+         border: 2px solid red;
+         margin: 2px;
+         background-position: center;
+         background-size: cover;
+           transition: 0.5s ease-out;
+       }
+       .box:hover{
+         background-position: bottom;
+         transform: translateY(-10%);
+         display:flex;
+          align-items: center;
+          justify-content: center;
+          color:white;
+          font-size:1.5rem;
+          box-shadow: 5px 5px 10px red;
+       }
+        
+
+        .row-2{
+             grid-row: span 2;
+        }
+
+        .col-2{
+            grid-column:span 2;
+        }
+
+        .left-text h1{
+            font-size: 4.2rem;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color:white
+        }
+
+        .left-text p{
+             color:#777;
+             margin-bottom: 40px;
+        }
+
+         .primary{
+            background-color: orangered;
+            padding:10px;
+            color:white;
+            text-decoration: none;
+            border-radius: 6px;
+         }
+
+         .priamry:hover{
+             transform: translateY(5%);
+         }

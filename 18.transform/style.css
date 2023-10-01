@@ -1,0 +1,166 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: greenyellow;
+}
+
+
+.container{
+    width:300px;
+    height:300px;
+    margin:0 auto;
+  border: 2px solid white;
+ 
+}
+
+.box{
+    width:8vw;
+    height:15vh;
+    background-color: antiquewhite;
+    margin-bottom: 4px;
+    animation-name: hello;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+.a{
+    width:8vw;
+    height:15vh;
+    background-color: antiquewhite;
+    margin-bottom: 4px;
+    animation-name: hello;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.b{
+    width:8vw;
+    height:15vh;
+    background-color: antiquewhite;
+    margin-bottom: 6px;
+    animation-name: hello;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+
+ @keyframes scale {
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(200px,0);
+        display:flex;
+        align-items: center;
+    }
+    50%{
+        transform: translate(200px,200px);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    85%{
+        transform: translate(0px,200px);
+    }
+    
+ }
+
+ @keyframes circle {
+    0%{
+        transform: rotate(2deg) 
+    }
+     100%{
+        transform: rotate(180deg) translate(30%) scale(1.5);
+     }
+ }
+
+ @keyframes hello {
+    0%{
+        transform: translate(-700px);
+    }
+    100%{
+        transform: translate(200px);
+    }
+    
+ }
+
+ .sury{
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 120px;
+    height:60vh;
+    width:40vw;
+    gap:2%;
+ }
+
+ .boxs{
+    border: 3px solid white;
+    background-color: antiquewhite;
+  animation-name: hello;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-direction:alternate;
+ }
+
+ .c{
+    width:8vw;
+    height:15vh;
+    background-color: antiquewhite;
+    margin-bottom: 6px;
+    animation-name: hello;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+ }
+
+
+ .d{
+    width:8vw;
+    height:15vh;
+    background-color: antiquewhite;
+    margin-bottom: 6px;
+    animation-name: hello;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+ }
+
+ .e{
+    width:8vw;
+    height:15vh;
+    background-color: antiquewhite;
+    margin-bottom: 6px;
+    animation-name: hello;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+ }
+
+ .f{
+    width:8vw;
+    height:15vh;
+    background-color: antiquewhite;
+    margin-bottom: 6px;
+    animation-name: hello;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+ }
+
+ .g{
+    width:8vw;
+    height:15vh;
+    background-color: antiquewhite;
+    margin-bottom: 6px;
+    animation-name: hello;
+    animation-duration: 9s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+ }

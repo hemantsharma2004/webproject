@@ -1,0 +1,100 @@
+h1{
+
+     border: 5px solid black;
+     border-radius: 10px;
+    width:30vw;
+    padding: 5px 1px 5px  12px;
+    text-align: center;
+    font-family: 'Rubik Pixels', cursive;
+   text-transform: uppercase;
+   text-shadow: 2px 2px 3px red;
+   font-size: 2rem;
+}
+
+
+ 
+li{
+    font-size: 1.58rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.contact{
+    color: blue;
+}
+ 
+.helo{
+    color: black;
+}
+
+.hello{
+    color: brown;
+}
+.hi{
+    color:black;
+}
+
+.hel{
+    color: darkmagenta;
+}
+.he{
+    color:black
+}
+
+.navraj{
+    color :green;
+}
+.nav{
+    color:black;
+}
+
+.sury{
+    color:red;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.janpreet{
+    color: green;
+    font-size: 2.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navra{
+    color: blue;
+    font-size: 1.82rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.vignesh{
+    background-color: blueviolet;
+    font-family: fantasy;
+    font-size :4rem;
+}
+
+.arish{
+    background-color: darkkhaki;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.helhi{
+      background-color: darkslategrey;
+      font-size: 3rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.chittu{
+    background-color: lightseagreen;
+    font-size: 3rem;
+    font-family: monospace;
+    
+}
+
+h3{
+    border: 5px solid black;
+    font-size: 5rem;
+    width:28vw;
+    color: white;
+    text-align: center;
+    background-color: darkslategray;
+}

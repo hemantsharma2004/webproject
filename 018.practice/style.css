@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1389015727/photo/india-map-india-monuments-environment-karachi-sindh-pakistan-march-30-2022-3d-illustration.jpg?b=1&s=170667a&w=0&k=20&c=sb4vc__AHhZl5g81fS5cQoUvj_W7A-PF0bwf6au9EDA=);
+    background-size: cover;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+}
+
+.arpit{
+    width:100vw;
+    height:100vh;
+    gap:10%;
+    justify-content: space-evenly;
+}
+
+.left-text{
+    flex-basis: 30%;
+}
+.left-text h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 6px pink;
+    margin-bottom: 20px;
+}
+
+.left-text p{
+    font-size: 1.5rem;
+    margin-bottom:20px;
+}
+
+.anchor{
+    background-color: darkcyan;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition:0.3s ease-in-out;
+    padding:10px;
+}
+.anchor:hover{
+    transform: scale(1.3);
+    background-color: blue;
+    color:white;
+}
+
+.right-image{
+    flex-basis: 40%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows:120px;
+}
+
+.box{
+    border: 3px solid black;
+    border-radius: 4px;
+    background-position: top;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+.box:hover{
+    background-position: center;
+     transform: scale(1.2);
+}
+
+.row-2{
+    grid-row:span 2;
+}
+
+.col-2{
+    grid-column:span 2;
+}
+
+.sury{
+    margin: 30px;
+    justify-content: space-between;
+}
+.links{
+    width:990px;
+}
+.links ul{
+      justify-content: flex-end;
+      gap:5%;
+}
+ul{
+    list-style: none;
+}
+
+.logo img{
+    width:5vw;
+}
+

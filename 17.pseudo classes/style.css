@@ -1,0 +1,73 @@
+ 
+ *{
+  padding:0;
+   margin:0;
+  box-sizing: border-box;
+  }
+
+  body{
+    padding:10px;
+  }
+
+  .container h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+  }
+
+  .container p{
+    font-size: 1.1rem;
+  }
+
+  .hello:link{
+    color:black;
+    padding:10px;
+  }
+
+  .hello:hover{
+    background-color: black;
+    color:white;
+  }
+
+  .hello:visited{
+    color:goldenrod;
+  }
+
+   .hello:active{
+    border: 4px dashed black;
+    background-color: white;
+    color:pink;
+   }
+
+
+   ul li:nth-child(2n){
+    background-color: chartreuse;
+   }
+
+   p::first-letter{
+    font-size: 3rem;
+   }
+
+   p::first-line{
+    background-color: blueviolet;
+   }
+
+    ::selection{
+      background-color: black;
+      color:green;
+    }
+
+      h1::before{
+        content: '*';
+      }
+
+       h1::after{
+         content: '*';
+       }
+   
+        .required::after{
+          content:'*';
+          color:red;
+        }
+
+
+

@@ -1,0 +1,45 @@
+*{
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+}
+
+.container{
+     width:100vw;
+     height:100vh;
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+      grid-auto-rows: 160px;
+      margin:auto;
+     
+}
+ 
+
+ .box{
+     border: 1px solid gray;
+     box-shadow: 4px 6px 5px whitesmoke;
+     background-position: center;
+     background-size: cover;
+      background-repeat: no-repeat;
+       transition:0.5s ease;
+ }
+ .box:hover{
+     background-position: bottom;
+    display:flex;
+    align-items:  center;
+    justify-content: center;
+    color:white;
+    font-size: 2.5rem;
+    transform: translateY(-7%);
+
+ }
+
+  .row-2{
+     grid-row: span 2;
+  }
+  .col-2{
+     grid-column: span 2;
+  }
+  .row-3{
+     grid-row:span 3;
+  }

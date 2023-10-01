@@ -1,0 +1,43 @@
+ body{
+    background-color: black;
+ }
+
+.container{
+    background-color: aquamarine;
+    width:50vw;
+    height:70vh;
+}
+
+.box{ 
+    width:8vw;
+   height:15vh;
+   color:white;
+}
+.spacer{
+    height:250vh;
+}
+
+
+.b{
+    background-color: brown;
+    float:bottom;
+}
+
+.a{
+    background-color: chartreuse;
+    float:bottom;
+}
+
+.e{
+    background-color: darkblue;
+    float: bottom;
+   
+   
+   
+}
+
+.s{
+    background-color: deeppink;
+    float:bottom;
+    
+}

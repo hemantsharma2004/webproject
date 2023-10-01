@@ -1,0 +1,192 @@
+  body{
+    background: linear-gradient(to top right,gray,white);
+  }
+
+
+.rachit{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: blue;
+    text-shadow: 3px 3px 4px red;
+
+}
+
+.r{
+    margin-top: 10px;
+    color:black;
+     font-size: 1.5rem;
+     text-shadow: none;
+}
+
+.hello{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black;
+
+}
+
+.nav{
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color:black;
+    text-shadow: none;
+
+}
+.hi{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color:darkslategrey;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 4px white;
+}
+.hy{
+    margin-top: 5px;
+    text-shadow: none;
+    font-size: 1.5rem;
+    color:black;
+}
+
+.sury{
+    font-size: 2.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 5px aqua;
+    color:darksalmon;
+    text-transform: uppercase;
+
+}
+
+.csk{
+    text-shadow: none;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.h{
+    font-size: 2.2rem;
+    color: rgba(156, 12, 67, 0.788);
+    text-transform: uppercase;
+
+    text-shadow: 4px 4px 5px red;
+}
+
+.u{
+    text-shadow: none;
+    color:black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-top:10px;
+    
+}
+
+.sign h1{
+    text-transform: uppercase;
+    text-shadow: 4px 4px 6px red;
+    font-family: fantasy;
+    font-size: 3.2rem;
+}
+
+.sign{
+    text-decoration: underline;
+}
+.nikhil{
+    font-size: 3rem;
+    color:blueviolet;
+    text-transform: uppercase;
+
+}
+
+.s{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background: linear-gradient(to right,purple,blue);
+}
+
+.s:hover{
+    color:white;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+.ua{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background: linear-gradient(to right,red,aqua);
+}
+
+.ua{
+    color:white;
+    text-transform: lowercase;
+    font-size:3.5rem;
+}
+
+.g{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    background: linear-gradient(to left,black,gray);
+}
+
+.g:hover{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+}
+
+.a{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    background: linear-gradient(to right,red,yellow);
+}
+
+.a:hover{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:white;
+}
+.m{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    background: linear-gradient(to right,green,rgb(92, 7, 92));
+}
+
+.m:hover{
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sugam{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.nu{
+    font-size: 4rem;
+    text-shadow: 4px 4px 6px red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.rachit:hover{
+    font-size: 3.5rem;
+}
+
+.hello:hover{
+
+      font-size:3.5rem;
+      color:green;
+    
+}
+.hi:hover{
+    font-size: 3.5rem;
+}
+
+.sury:hover{
+    font-size:3.5rem;
+    color:lightcoral;
+}
+
+.h:hover{
+    font-size: 3.5rem;
+    color:darkblue;
+}

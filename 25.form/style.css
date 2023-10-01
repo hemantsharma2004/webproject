@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+ .outer-box{
+    width:100vw;
+    height:100vh;
+    background-image: url(https://media.istockphoto.com/id/1165546605/photo/atmospheric-smoke-fog-cloud-smooth-movement-modern-abstract-background-animation-3d-render.jpg?b=1&s=170667a&w=0&k=20&c=diNhS07PL2H2mMuH-Ad0-fsRDBKFAxSpEsD3X9FyTM0=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .inner-box{
+    padding:15px 30px;
+     width:30%;
+     margin: auto;
+     position: relative;
+     top:20%;
+     transform: translateY(-10%);
+     left:1%;
+      background: linear-gradient(to top right, rgb(12, 10, 10),rgb(114, 105, 105));
+      box-shadow: 3px 3px 8px red;
+      transition: 0.4s ease-in-out;
+ }
+ .inner-box:hover{
+    box-shadow: 7px 7px 11px blue;
+    transform: scale(1.1) translateY(-4%);
+ }
+.header{
+    text-align: center;
+}
+
+  .header h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+     
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 6px 19px rgb(248, 242, 242);
+    margin-bottom: 7px;
+  }
+  .header p{
+    color:#777;
+    margin-bottom: 10px;
+  }
+
+   .form label{
+      font-size: 1.4rem;
+      display:block;
+      text-transform: capitalize;
+   }
+   .form input{
+    display:block;
+    border-radius: 4px;
+    width:100%;
+    padding:7px;
+    font-size: 1rem;
+   }
+   .submit{
+    text-align: center;
+    background-color: blue;
+    color:white;
+    border: none;
+    margin-bottom: 15px;
+   }
+   .submit:hover{
+     background-color: gold;
+     color: black;
+     transform: scale(1.1);
+   }
+
+   .primary{
+       background-color: beige;
+       color:black;
+       border: 1px solid black;
+       padding:5px 35px;
+       text-decoration: none;
+       border-radius: 10px;
+   }
+ 
+   .primar{
+    background-color: beige;
+    color:black;
+    border: 1px solid black;
+    padding:5px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+   }

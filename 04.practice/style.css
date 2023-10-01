@@ -1,0 +1,41 @@
+.box{
+    width:10vw;
+    height:20vh;
+}
+
+.container{
+    background-color: aquamarine;
+    width:50vw;
+    height:80vh;
+}
+
+.red{
+    background-color: blue;
+    float:right;
+   
+}
+.green{
+    background: linear-gradient( to right,blue,red);
+    float:right;
+    clear:right;
+   
+}
+.white{
+    background-color: greenyellow;
+    float:right;
+    clear:right;
+    border-radius: 50%;
+
+    
+}
+
+.blue{
+    background-color: darkslateblue;
+    float:right;
+    clear:right;
+    
+
+}
+.spacer{
+   height:150vh;
+}

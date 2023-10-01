@@ -1,0 +1,43 @@
+h1{
+    font-size: 100px;
+    border: 5px solid red;
+    width:50vw;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.contact{
+    color: blue;
+}
+
+.hello{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hi{
+    color: goldenrod;
+}
+
+.navraj{
+  
+    display:inline;
+
+}  
+.na{
+    display:inline;
+}
+
+.hel{
+    color: red;
+     display: block;
+    
+}
+
+p{
+    display:block;
+}
+
+
+

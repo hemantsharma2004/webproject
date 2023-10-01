@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.primary{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    overflow:hidden;
+}
+nav{
+    overflow:hidden;
+}
+
+.primary:hover{
+    color:blue;
+    background-color: white;
+    color:black;
+}
+.primary:visited{
+    color:orange;
+}
+.primary:active{
+    background-color: black;
+    color:red;
+}
+.flex{
+    display:flex;
+    align-items: center;
+}
+.arpit{
+    gap:30px;
+    margin:40px;
+    justify-content: space-between;
+    
+}
+ul{
+    list-style: none;
+}
+#hello{
+    font-size: 4rem;
+}
+link {
+    width:800px;
+}
+.link ul{
+    gap:30px;
+}
+
+.hover-link:hover{
+    color:red;
+}
+
+.sury{
+    width:100vw;
+    height:85vh;
+    gap:10%;
+    justify-content: space-evenly;
+}
+.left-text{
+    flex-basis: 30%;
+}
+.left-text p{
+    margin-bottom: 40px;
+}
+
+.left-text h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 6px 6px 12px purple;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.left-text a{
+    margin-top:50px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background: linear-gradient(to right,pink,aqua);
+    padding:10px;
+}
+.right-image{
+    flex-basis: 35%;
+}
+
+.right-image img{
+    width:350px;
+}
+
+.box{
+    border: 3px solid black;
+}
+
+nav P{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding:20px;
+    font-size: 1.5rem;
+    background-image: url(https://media.istockphoto.com/id/1406970413/photo/blue-gift-boxes.jpg?b=1&s=170667a&w=0&k=20&c=7ekUR8cRd53Lg09DSPTsD-rFK_LpiUDiB4F9Qfyexoc=);
+    background-size: cover;
+    background-position: center;
+}

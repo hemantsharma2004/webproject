@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.body{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+.primary{
+    border: 2px solid pink;
+    padding:14px;
+    margin-bottom: 40px;
+}
+
+.kevin{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:8%;
+    width:100vw;
+    height:100vh;
+    background-image: url(https://media.istockphoto.com/id/1165546605/photo/atmospheric-smoke-fog-cloud-smooth-movement-modern-abstract-background-animation-3d-render.jpg?s=612x612&w=0&k=20&c=KWHjTj6UX6ScNdhoqrMoJanrVOqEezpKNnAKdfyTaj4=);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.left-text{
+    flex-basis: 30%;
+}
+.right-image{
+    flex-basis: 38%;
+    display:grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-auto-rows: 130px;
+}
+.box{
+    border: 3px solid white;
+    margin: 2px;
+    background-size: cover;
+    background-position: top;
+    transition: 0.5s ease-in;
+}
+.box:hover{
+    background-position: center;
+    transform: scale(1.1) translateY(-10%);
+    box-shadow: 5px 5px white;
+}
+
+.left-text h1{
+    font-size: 4rem;
+ text-transform: capitalize;
+ text-shadow: 4px 4px 6px pink;
+ margin-bottom: 25px;
+ color:white;
+ transition:0.4s ease-in
+}
+.left-text h1:hover{
+    transform: scale(1.2) translateY(-10%);
+}
+
+.left-text p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color:white;
+}
+
+.row-2{
+    grid-row: span 2;
+}
+
+.col-2{
+    grid-column: span 2;
+}
+
+ .left-text a:visited{
+    color:red;
+
+ }

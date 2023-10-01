@@ -1,0 +1,164 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-width:800px;
+    margin-inline: auto;
+    background-color: black;
+    
+}
+.primary{
+    border: 4px solid black;
+    border-radius: 8px;
+    padding:10px;
+    background: linear-gradient(to top right,aqua,pink);
+}
+p{
+   color:white;
+}
+.secondary{
+   border: 4px solid white;
+   border-radius: 5px;
+   padding:10px;
+}
+.hover-link:hover{
+    color:blue;
+}
+ .flex{
+    display:flex;
+    align-items: center;
+ }
+ .sury{
+    padding:20px;
+ }
+ .nav-link{
+    flex-basis: 1150px;
+ }
+ .nav-link ul{
+    justify-content:flex-end;
+    gap:30px;
+ }
+ .company-logo{
+    padding-inline: 25px;
+ }
+ .company-logo h2{
+    font-size: 2rem;
+    color:white;
+ }
+ ul{
+    list-style: none;
+ }
+
+  .arpit{
+    justify-content: space-around;
+  }
+ .left-text{
+    flex-basis: 40%;
+    color:white;
+ }
+ .ke{
+    color:red;
+ }
+ .k{
+    color:red;
+ }
+ .left-text h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-overflow: 5px 5px 9px aqua;
+ }
+ .left-text p{
+    font-size: 2rem;
+
+ }
+ .right-image{
+    flex-basis: 40%;
+ }
+ .right-image img{
+    padding-block: 25px ;
+    height:100vh;
+ }
+
+ .logo{
+   gap:8px;
+   justify-content: space-evenly;
+   margin-bottom: 40px;
+ }
+ .company-header{
+   color:white;
+   text-align: center;
+   font-size: 2rem;
+   margin-top: 25px;
+   margin-bottom: 25px;
+ }
+ 
+ .logos{
+   width:12%;
+ }
+ .section{
+   justify-content: space-evenly;
+ }
+.feature-section{
+   background-color: #eee !important;
+   padding:100px var(--padding-inline-section)0;
+}
+
+
+ .feature-header{
+   font-size: 2rem;
+   margin-block: 30px;
+   text-align: center;
+ }
+.spacer{
+   height:300vh;
+}
+h3{
+   color:white;
+}
+.feature-header p{
+   margin-block:20px;
+}
+.feature-area{
+     flex-wrap: wrap;
+   width:30%;
+   justify-content: space-evenly;
+}
+.feature-card{
+   gap:25px;
+ flex-direction: column;
+   border: 2px solid white;
+    margin-block: 50px;
+   max-width:35%;
+}
+.feature-card img{
+   width: 50px;
+   margin:20px;
+}
+.feature-card h3{
+   font-size: 2.2rem;
+   margin-block: 25px;
+}
+.feature-section p{
+   font-size: 1.3rem;
+}
+.image{
+   justify-content: center;
+}
+
+
+
+.feature{
+   justify-content: space-evenly;
+   gap:15%;
+   padding:20px;
+
+}
+.left-text{
+    flex-basis: 35%;
+}
+.right-image{
+   flex-basis: 30%;
+}

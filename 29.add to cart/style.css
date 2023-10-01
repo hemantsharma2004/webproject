@@ -1,0 +1,23 @@
+*{
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+     text-decoration: none;
+}
+body{
+     padding:10px 20px;
+}
+
+ .right{
+      float: right;
+       background-color: blanchedalmond;
+       width:300px;
+       height:300px;
+       padding:10px ;
+ }
+
+ .rigth #items,#hello{
+     padding:20px 30px;
+ }
+
+ 

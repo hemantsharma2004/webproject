@@ -1,0 +1,612 @@
+*{
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+     
+}
+.container{
+    color:white;
+     width:99vw;
+     height:100vh;
+       background-color: black;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       margin-bottom: 150px;
+}
+.flex{
+     display:flex;
+     align-items: center;
+}
+
+.nav{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     padding:25px 45px;
+}
+.left{
+     flex-basis: 10%;
+}
+.left img{
+     width:50%;
+}
+.right{
+      flex-basis: 20%;
+}
+.primary{
+   color:white;
+}
+.right ul li a{
+     margin-right: 40px;
+     text-decoration: none;
+     list-style: none;
+}
+
+ ul li{
+     list-style: none;
+ }
+
+ .c-button {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .c-button--gooey {
+    color: #06c8d9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #06c8d9;
+    border-radius: 0;
+    position: relative;
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey .c-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+  }
+  
+  .c-button--gooey .c-button__blobs div {
+    background-color: #06c8d9;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(1) {
+    left: -5%;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+  }
+  
+  .c-button--gooey:hover {
+    color: #fff;
+  }
+  
+  .c-button--gooey:hover .c-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+  }
+
+   .text{
+      width:600px;
+      position:relative;
+      top:10%;
+      left: 10%;
+  margin-bottom: 130px;
+   }
+
+   .text h2{
+     font-size: 2rem;
+     margin-bottom: 15px;
+
+   }
+   span{
+     color:yellow;
+   }
+
+   .text h1{
+     font-size: 3rem;
+     margin-bottom: 8px;
+   }
+
+   .p{
+     color:rgb(199, 73, 94);
+     margin-bottom: 20px;
+   }
+   
+
+    .tag{
+        margin-top: 30px;
+         text-decoration: none;
+         margin-right: 30px;
+         border:1px solid rgb(245, 10, 49);
+         padding:10px 25px;
+         border-radius: 40px;
+    }
+     .ap{
+         margin-bottom: 30px;
+    }
+
+    .tag:hover{
+         background-color:rgb(238, 72, 100) ;
+         border: none;
+    }
+
+    .images img{
+           width:280px;
+           border-radius: 60%;
+           background-position: center;
+           transition:0.6s ease-in-out;
+    }
+    .images img:hover{
+         background-position: bottom;
+         transform: scale(1.1);
+    }
+
+    .images{
+         justify-content: space-evenly;
+          
+    }
+
+     .food{
+        display:grid;
+        grid-template-columns: 400px 400px;
+        grid-auto-rows: 170px;
+         color:white;
+         margin-bottom: 120px;
+         padding:1px 250px;
+     }  
+
+
+
+     .box{
+
+         margin:10px;
+        background-position: center;
+        background-repeat: no-repeat;
+      padding:15px 20px;
+      transition: 1s ease-in;
+     }
+     .box:hover{
+       display:grid;
+       align-items: center;
+       justify-content: center;
+       font-size: 2.5rem;
+     }
+
+     .row-2{
+          grid-row: span 2;
+     }
+     .col-2{
+         grid-column: span 2;
+     }
+
+
+     .company-section{
+         margin-bottom: 35px;
+         margin:auto;
+     }
+     
+     .company-header{
+         text-transform: capitalize;
+         text-align: center;
+         margin-bottom: 50px;
+         font-size: 1.7rem;
+
+     }
+     .company-area{
+          display:flex;
+          align-items: center;
+          justify-content: space-evenly;
+     }
+   
+
+     .card{
+          flex-basis: 20%;
+          transition:0.4s ease-in;
+     }
+     .card:hover{
+         box-shadow: 7px 8px 10px aqua;
+         transform: translateY(-5%) ;
+     }
+
+     .burger{
+        border: 1px solid gray;
+         width:80vw;
+          transform: translateX(95px);
+       margin-bottom: 30px;
+         padding:15px 15px;
+         display:flex;
+         align-items: center;
+         box-shadow: 3px 5px 4px gray;
+         justify-content: space-between;
+     }
+
+     .left-text{
+         flex-basis: 35%;
+     }
+    
+     .right-image{
+         flex-basis: 35%;
+          padding:20px 1px;
+     }
+     .burger h2{
+         font-weight: 1200;
+     }
+     .para{
+         color:pink;
+         font-size: 1.3rem;
+     }
+
+     .rating:not(:checked) > input {
+        position: absolute;
+        appearance: none;
+      }
+      
+      .rating:not(:checked) > label {
+        float: right;
+        cursor: pointer;
+        font-size: 50px;
+        color: #666;
+      }
+      
+      .rating:not(:checked) > label:before {
+        content: '★';
+      }
+      
+      .rating > input:checked + label:hover,
+      .rating > input:checked + label:hover ~ label,
+      .rating > input:checked ~ label:hover,
+      .rating > input:checked ~ label:hover ~ label,
+      .rating > label:hover ~ input:checked ~ label {
+        color: #e58e09;
+      }
+      
+      .rating:not(:checked) > label:hover,
+      .rating:not(:checked) > label:hover ~ label {
+        color: #ff9e0b;
+      }
+      
+      .rating > input:checked ~ label {
+        color: #ffa723;
+      }
+.rating{
+     transform: translateX(-130px);
+}    
+
+.con-like {
+  --red: rgb(250, 50, 80);
+  position: relative;
+  width: 50px;
+  height: 50px;
+  transform: translate(290px,10px);
+  
+}
+
+.con-like .like {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.con-like .checkmark {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-like .outline,
+.con-like .filled {
+  fill: var(--red);
+  position: absolute;
+}
+
+.con-like .filled {
+  animation: kfr-filled 0.8s;
+  display: none;
+}
+
+.con-like .celebrate {
+  position: absolute;
+  animation: kfr-celebrate 0.6s;
+  animation-fill-mode: forwards;
+  display: none;
+}
+
+.con-like .poly {
+  stroke: var(--red);
+  fill: var(--red);
+}
+
+.con-like .like:checked ~ .checkmark .filled {
+  display: block
+}
+
+.con-like .like:checked ~ .checkmark .celebrate {
+  display: block
+}
+
+@keyframes kfr-filled {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes kfr-celebrate {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+    display: none;
+  }
+}
+
+
+ .feature-section{
+   
+    
+ }
+
+  .feature-area::-webkit-scrollbar{
+     display:none;
+  }
+ .feature-header{
+    text-align: center;
+    padding:10px 50px;
+    margin-bottom: 45px;
+ }
+ .feature-header h2{
+     font-size: 2.3rem;
+ }
+
+ .feature-area{
+     display:flex;
+     text-align: center;
+     align-items: center;
+     justify-content: space-evenly;
+     padding:2px 30px;
+    overflow-x: scroll;
+   
+ }
+
+  .feature-card{
+      flex-basis: 25%;
+      margin-bottom: 60px;
+      width:320px;
+      margin-right:35px;
+  }
+   
+   .feature-card img{
+     width:300px;
+   }
+   
+
+   .feature-card p{
+     margin-bottom: 20px;
+   }
+   .secondary{
+      background-color: red;
+      color:white;
+      padding:10px 15px;
+      text-decoration: none;
+      transition: 0.3s ease-in-out;
+   }
+   .secondary:hover{
+     background: linear-gradient(to top right,aqua,pink);
+     color:black;
+   }
+  .care{
+    
+     text-align: center;
+     margin-bottom: 120px;
+  }
+   
+   .care h1{
+     margin-bottom: 70px;
+   }
+   .review{
+      width:60vw;
+      background-color: #e0d8d8;
+      border-radius: 15px;
+       padding:25px 35px;
+        margin-bottom: 30px;
+        transform: translateX(40%);
+   }
+   .review h3{
+     text-align: end;
+   }
+   .review h4{
+  text-align: end;
+   }
+
+   .lorem{
+    width:60vw;
+    background-color: #e0d8d8;
+    border-radius: 15px;
+     padding:25px 35px;
+     transform:translateX(15%);
+ }
+ .lorem h3{
+   text-align: end;
+ }
+ .lorem h4{
+text-align: end;
+ }
+
+
+ .footer{
+  margin-top: 100px;
+   display:flex;
+   align-items: center;
+   justify-content: space-evenly;
+   line-height: 2rem;
+ margin-bottom: 60px;
+ }
+ .left-footer{
+    flex-basis: 30%;
+ }
+
+ .right-footer{
+   flex-basis: 30%;
+   line-height: 2.5rem;
+ }
+ .left-footer h1{
+   font-size: 3rem;
+   font-weight: 600;
+ }
+.name{
+   width:100%;
+}
+
+.right-footer textarea{
+   width:100%;
+}
+  
+.right-footer input{
+    padding:7px 10px;
+}
+
+.sub-footer{
+   background-color: black;
+   width:99vw;
+   height:30vh;
+   padding:10px 30px;
+    display:flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+.sub-footer img{
+   width:200px;
+}
+
+ .dessert{
+   background-image: url(https://media.istockphoto.com/id/1255426185/photo/delicious-chocolate-zucchini-brownies.webp?b=1&s=170667a&w=0&k=20&c=WZajVWSpzMGwJAOw9bbS5n00N9_28pI83SOrCVMWpkY=);
+    background-position: center;
+  width:200px;
+  background-color: black;
+ }
+
+ .pizza{
+   background-image: url(https://media.istockphoto.com/id/1185515984/photo/christmas-baking-table-scene-with-assorted-sweets-and-cookies-top-view-over-a-rustic-wood.webp?b=1&s=170667a&w=0&k=20&c=z110mqKieHNWc03eJ9jYp1YbxFkNyYwTe4i1_a4Vgw0=);
+   background-position: center;
+   width:200px;
+ }
+
+  .salad{
+    background-image: url(https://plus.unsplash.com/premium_photo-1683892041696-71c87c1858be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    width:200px;
+  }
+
+  #card{
+      margin-bottom: 50px;
+  }
+
+  .slider{
+     border: 2px solid whitesmoke;
+     width:60vw;
+     height:350px;
+     border-radius: 10px;
+     box-shadow: 3px 4px 9px 6px rgb(90, 83, 83);
+     margin-bottom: 100px;
+     margin:auto;
+      animation-name: scale;
+      animation-duration: 40s;
+      animation-iteration-count: infinite;
+      
+     
+  }
+
+   @keyframes scale {
+    0%{
+      background-image: url(https://media.istockphoto.com/id/187248625/photo/pepperoni-pizza.webp?b=1&s=170667a&w=0&k=20&c=YD9gHSr9qWKJmEq23Qw7KcLSRsutzkrNyLuY_kNH1lI=);
+      background-size: cover;
+      background-position: center;
+    }
+
+     20%{
+       background-image: url(https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg?auto=compress&cs=tinysrgb&w=600);
+       background-position: center;
+       background-size: cover;
+     }
+
+     40%{
+       background-image: url(https://images.pexels.com/photos/958546/pexels-photo-958546.jpeg?auto=compress&cs=tinysrgb&w=600);
+       background-position: center;
+       background-size: cover;
+     }
+
+     60%{
+       background-image: url(https://media.istockphoto.com/id/1364757902/photo/crispy-crepes-made-of-barnyard-millets-and-lentils-commonly-known-as-barnyard-millet-ghee.jpg?b=1&s=612x612&w=0&k=20&c=a0ZVfcUkirynZyQkfPGK5bxzE7KIuXsgiVvYdTaHB_Q=);
+       background-position: center;
+       background-size: cover;
+     }
+     80%{
+       background-image: url(https://media.istockphoto.com/id/1305516603/photo/shahi-paneer-or-paneer-kadai.jpg?b=1&s=612x612&w=0&k=20&c=eIm7dwKLpngnizWPQRwbKk-lOqrd0uQ94BHRoL5r7vM=);
+       background-position: center;
+       background-size: cover;
+     }
+
+     100%{
+       background-image: url(https://images.pexels.com/photos/5150219/pexels-photo-5150219.jpeg?auto=compress&cs=tinysrgb&w=600);
+       background-position: center;
+       background-size: cover;
+     }
+
+    
+   }
+
+
+    @media (width <= 900px)
+    {
+       .container{
+         display:flex;
+         flex-direction: column;
+       }
+    }

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.outer-box{
+    width:99vw;
+    height:100vh;
+   background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?size=626&ext=jpg");
+  
+}
+.inner-box{
+    width:400px;
+    background-color: blueviolet;
+    margin:auto;
+    padding:15px 30px;
+    border-radius: 10px;
+    position:relative;
+    top:40%;
+    transform: translateY(-40%);
+     background: linear-gradient(to top right,black,gray);
+     backdrop-filter: blur(20px);
+     box-shadow: 5px 5px 9px red;
+}
+.rohit{
+    text-align: center;
+}
+
+.rohit h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 4px 4px 6px red;
+    margin-bottom: 10px;
+    font-family:'Roboto', sans-serif; ;
+}
+.rohit p{
+    color:#ccc;
+    margin-bottom: 5px;
+}
+
+.navraj label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    display:block;
+}
+.navraj input{
+    width:100%;
+    height:25px;
+    border-radius: 10 px;
+    padding: 0 8px;
+}
+
+.dd{
+    border-radius: 10px;
+    border: none;
+    height:25px;
+    background-color: cornflowerblue;
+}
+
+.dd:hover{
+      background-color: blue;
+      color:white;
+}
+
+.dhoni p{
+    display:inline;
+  
+}
+.dhoni{
+    text-align: center;
+}

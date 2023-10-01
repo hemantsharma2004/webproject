@@ -1,0 +1,28 @@
+
+h1{
+    
+    text-align: center;
+    text-transform:uppercase;
+    color: darkgreen;
+    font-family:'Righteous', cursive ;
+    text-decoration: underline;
+    font-size: 3.5rem;
+    text-shadow: 5px 5px 10px red,8px 8px  10px blue
+
+    
+}
+p{
+     text-indent: 20px;
+     line-height: 2rem;
+     word-spacing:0.5rem;
+     white-space: 1rem;
+
+   
+}
+
+section{
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+    text-decoration-style: dotted;
+}
+

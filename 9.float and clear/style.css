@@ -1,0 +1,27 @@
+.container{
+    border: 2px solid black;
+    width:60vw;
+}
+.hel{
+    float:left;
+    margin-right: 40px;
+    padding-bottom: 15PX;
+   
+}
+
+.hello{
+    float:right;
+    margin-left:40px;
+}
+
+.block1{
+    overflow:auto;
+}
+.contact{
+    float:left;
+    clear:right;
+    margin-top: 15px;
+    margin-right:15px;
+   
+}
+

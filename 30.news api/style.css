@@ -1,0 +1,31 @@
+.impact-area{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:1%;
+    width:100%;
+    height:100vh;
+    padding:10px 40px;
+    position:relative;
+ }
+
+ .impact-card{
+       flex-basis: 30%;
+ }
+
+ .impact-card img{
+    width:100%;
+     object-fit: cover;
+ }
+
+
+ .impact-card h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .impact-card p{
+    font-size: 1.2rem;
+ }

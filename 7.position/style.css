@@ -1,0 +1,51 @@
+.container{
+    width:300px;
+    height: 500px;
+    background-color: aquamarine;
+    margin:150px;
+}
+
+
+.box{
+    width:100px;
+    height:100px;
+}
+
+.red{
+    background-color: forestgreen;
+    position: relative;
+    top: 0px;
+    left: 350px;
+    z-index: 1;
+}
+
+.green{
+    background-color: darkslategrey;
+    left:0;
+    position:fixed;
+    color:white;
+}
+.blue{
+    background-color: goldenrod;
+    position: relative;
+     right:0;
+     bottom:100px;
+     color:white;
+      
+}
+
+
+
+.purple{
+      background-color: purple;
+      position : sticky;
+      top:50px;
+      color:white;
+}
+
+.spacer{
+    height:500vh;
+    width:150vw;
+ 
+    
+}

@@ -1,0 +1,42 @@
+.box{
+    width:100px;
+    height:100px;
+    border: 3px solid red;
+    overflow:auto;
+   
+}
+
+.container{
+    background-color: black;
+    width:40vw;
+    height:75vh;
+
+}
+
+.green{
+    background-color: lightblue;
+   float:right;
+}
+.red{
+    background-color: darkgoldenrod;
+    float:right;
+    clear:right;
+
+}
+
+.blue{
+    background-color: darkorchid;
+    float:right;
+    clear:right;
+
+}
+
+.black{
+    background-color: brown;
+    float:right;
+    clear:right;
+
+    
+    
+}
+

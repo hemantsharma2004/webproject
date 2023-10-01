@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.outer-box{
+    width:100vw;
+    height:100vh;
+    background-image: url(https://media.istockphoto.com/id/184601291/photo/xxxl-dark-concrete.jpg?b=1&s=170667a&w=0&k=20&c=KRRXq0P41imqerPjYF4EgX7QOdbybyprM8ofKYoIzT4=);
+}
+
+.inner-box{
+    box-shadow: 5px 5px 10px white;
+    width:30%;
+    margin:0  auto;
+    background-color: rgb(139, 224, 89);
+    padding:30px 40px;
+    transform: translateY(24%);
+
+}
+
+.header h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-block:20px;
+    text-shadow: 3px 4px 6px pink;
+}
+
+.submit{
+    background-color: yellow;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+.submit:hover{
+    background-color: blue;
+    color:white;
+}
+.header p{
+    text-align: center;
+    color:#555;
+}
+
+.main label{
+    display:block;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+.main input{
+    width:100%;
+    border-radius: 10px;
+  padding: 4px 10px;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.footer{
+    display:flex;
+    gap:2%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+}

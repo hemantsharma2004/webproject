@@ -1,0 +1,244 @@
+*{
+    padding:0;
+    margin:0;
+box-sizing: border-box;
+}
+
+
+.arpit{
+    width:99vw;
+    height:100vh;
+    display:flex;
+    justify-content: space-evenly;
+ align-items: center;
+    gap:10%;
+
+}
+
+.left-text{
+    flex-basis: 30%;
+}
+.left-text h1{
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 8px aqua;
+  margin-bottom: 20px;
+}
+.left-text p{
+    margin-bottom: 40px;
+}
+.primary{
+    border: 3px solid black;
+    border-radius: 5px;
+   background: linear-gradient(to top right,aqua,pink);
+   padding:10px;
+}
+.primary:active{
+     background-color: black;
+     color:white;
+     border: 3px solif blue;
+}
+
+.right-image{
+     flex-basis: 35%;
+}
+.right-image img{
+    width:30vw;
+    height:50vh;
+}
+ .flexs{
+    display:flex;
+    align-items: center;
+ }
+
+.sury{
+    gap:10%;
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 20px;
+     margin-inline:30px;
+}
+ul{
+    list-style: none;
+}
+
+.link {
+    width:700px;
+}
+.link ul{
+    gap:10%;
+     justify-content: end;
+
+}
+
+.company-logo img{
+    width:50px;
+}
+.hover-link:hover{
+    color:blue;
+}
+  
+ .banner{
+    background-color: cadetblue;
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    background-image: url(https://media.istockphoto.com/id/1462978145/photo/abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=e8q51_lHYmSLTpf0gIgVTjKR-q-12oi01EsQtw7KTAM=);
+ }
+
+ .parent{
+    gap:15%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block:100px;
+
+ }
+
+ .left-para{
+    flex-basis: 25%;
+ }
+
+ .right-img{
+    flex-basis: 30%;
+ }
+
+   /*example-section*/
+  
+ .example-header h2{
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+ .example-area{
+   flex-wrap: wrap;
+   display:flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 50px;
+ }
+
+ .example-card{
+     width:20vw;
+     height:50vh;
+     margin-block: 25px;
+     margin-inline: 15px;
+   background-image: url(https://images.unsplash.com/photo-1682418408515-18655b74d784?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+   background-size: cover;
+     display:flex;
+     align-items: end;
+     background-position: top;
+  gap:10%;
+ }
+
+ .example-card:hover{
+    transition: 1s ease-in-out;
+    box-shadow: 4px 4px 9px black;
+    background-position: center;
+ }
+
+  .example-card h3{
+    color:white;
+    font-size: 1.5rem;
+  }
+ 
+   .helo{
+    margin-top: 70px;
+   }
+   .secondary{
+        background-color: cyan;
+       border-radius: 9px;
+       padding:15px;
+       color:black;
+   }
+   .tag{
+    font-size: 1.4rem;
+   }
+   .secondary:hover{
+    transition: 0.4s ease-out;
+    color:white;
+    background-color: blue;
+   }
+   .cta{
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgba(11, 11, 122, 0.945);
+    padding:120px 100px;
+   }
+
+   .cta h2{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+   }
+
+   .cta p{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+   }
+
+ /*footer*/
+
+   .contain{
+    margin-block: 40px;
+    margin-inline: 45px;
+    background-color: #eee;
+    display:flex;
+    height:50vh;
+    justify-content: space-evenly;
+    gap:10%;
+    padding:100px;
+    
+   }
+   
+   .left img{
+     width:15vw;
+   }
+   .right{
+    display:flex;
+    flex-direction: column;
+   }
+   .right a{
+    line-height: 2.1rem;
+   }
+
+
+
+   /*sub-footer*/
+
+   .sub-footer{
+    background-color: cadetblue;
+    padding:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+   }
+
+    .space{
+       margin-inline: 30px;
+        flex-wrap: wrap;
+        gap:25px;
+         display:flex;
+         align-items: center;
+         justify-content: space-evenly;
+    }
+
+    .space img{
+        width:10%;
+    }
+
+    .text h2{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+
+ 

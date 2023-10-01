@@ -1,0 +1,53 @@
+  body {
+    background-color: lightcyan;
+  }
+ 
+ 
+ *{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+.highlight
+{
+    color: white;
+    background-color: black;
+}
+
+h2:hover{
+    color: blue;
+}
+
+tr:hover{
+    
+    color: white;
+    background-color: black;
+}
+
+
+ol:hover{
+    color:white;
+    background-color: black;
+}
+header{
+    font-size: large;
+}
+ h1{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 22vw;
+    text-shadow: 3px 3px  5px  red;
+    text-transform: uppercase;
+    padding:8px;
+    text-align: center;
+ }
+
+ #contact{
+        border: 5px solid black;
+        border-radius: 15px;
+ }
+
+ a{
+    display:block;
+ }
+
+
